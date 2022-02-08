@@ -60,10 +60,8 @@
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="456dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Abrir nova tela"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -76,12 +74,16 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btMap"
+        android:layout_width="165dp"
+        android:layout_height="111dp"
         android:text="Abrir Mapa"
+        android:textSize="16sp"
+        app:backgroundTint="#009688"
         app:layout_constraintBottom_toTopOf="@+id/btAbrirNovaTela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvResultado"
-        tools:layout_editor_absoluteX="139dp" />
+        app:layout_constraintVertical_bias="0.888" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,6 +38,14 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        //***************** btMap
+        var btMap = findViewById<Button>(R.id.btMap)
+        btMap.setOnClickListener {
+            val intentAbrirMapa = Intent(this, MapsActivity::class.java)
+           startActivity(intentAbrirMapa)
+
+        }
+
     }
 }
 
